@@ -1,0 +1,563 @@
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    width: 1728px;
+    height: 1117px;
+    top:-559px;
+    left: -864px;
+    background: #FFFFFF;
+    display: flex;
+}
+
+/* side1 */
+/* side2 */
+/* Main */
+.notification{
+    position:absolute;
+    width: 104px;
+    height: 40px;
+    top: 40px;
+    left: 1584px;
+    border: 1px soild green;
+    display: flex;
+    justify-content: space-between;
+}
+.notification > .circle{
+    position: relative;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color:#D9D9D9;
+}
+.notification > .circle > .bell-img{
+    position: absolute;
+    right: 10px; 
+    height: 20px;
+    width: auto; 
+    top: 50%;
+    transform: translateY(-50%);
+}
+.notification > .small-profile{
+    width: 40px;
+    height: 40px;
+}
+.notification > .small-profile > .small-profile-img{
+    width: 100%;
+}
+.profile-image{
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 60px;
+    left: 1352px;
+    border-radius: 500px;
+
+}
+.edit-profile{
+position:absolute;
+width: 232px;
+height: 53px;
+top: 83px;
+left: 596px;
+}
+.edit-profile-text{
+font-family: Roboto;
+font-size: 45px;
+font-weight: 600;
+line-height: 53px;
+letter-spacing: 0em;
+text-align: left;
+}
+.first-name{
+position:absolute;
+width: 405px;
+height: 108px;
+top: 216px;
+left: 596px;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+}
+.first-name>span{
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.first-name>input{
+    width: 405px;
+    height: 70px;
+    top: 254px;
+    left: 596px;
+    border-radius: 5px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 2px solid #858585;
+    font-family: Roboto;
+    font-size: 24px;
+    padding-left: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.last-name{
+    position:absolute;
+    width: 407px;
+    height: 108px;
+    top: 216px;
+    left: 1065px;
+    border-radius: 5px;    
+    display: flex;
+    flex-direction: column;
+    }
+    .last-name>span{
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+                     
+    }
+    .last-name>input{
+    width: 405px;
+    height: 70px;
+    top: 254px;
+    left: 596px;
+    border-radius: 5px;
+    background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+    border: 2px solid #858585;
+    font-family: Roboto;
+    font-size: 24px;
+    padding-left: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    }
+
+    .email{
+        position:absolute;
+        width: 873px;
+        height: 108px;
+        top: 342px;
+        left: 596px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .email>span{
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .email>input{
+        position: relative;
+        display: inline-block;
+        width: 873px;
+        height: 70px;
+        /* top: 380px;
+        left: 596px; */
+        border-radius: 5px;
+        border: 2px solid #858585;
+        background: linear-gradient(0deg, #ffffff, #ffffff);
+        font-family: Roboto;
+        font-family: Roboto;
+        font-size: 24px;
+        padding-left: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;        
+
+    }
+    
+    .email-text{
+        background-image: url('image/Vector.png');
+        background-repeat: no-repeat;
+        background-position: right center;
+        padding-right: 20px;
+    }
+
+    .email .tick-div{
+        position: absolute;
+        top: 50%;
+        right: 5px; /* Adjust the right positioning as needed */
+        transform: translate(0, -20%);
+        width: 35.42924499511719px;
+        height: 35.632164001464844px;
+        background-color: green;
+    }
+   .tick-mark-image{
+    position: absolute;
+    right: 7px; /* Adjust the position of the tick mark */
+    width: 19.190841674804688px;
+    height: 14.846735000610352px;
+    top: 50%;
+    transform: translateY(-50%);
+   }
+
+
+   .mobile{
+    position:absolute;
+    width: 876px;
+    height: 108px;
+    top: 468px;
+    left: 596px;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+}
+.mobile>span{
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.mobile>input{
+    position: relative;
+    display: inline-block;
+    width: 873px;
+    height: 70px;
+    /* top: 380px;
+    left: 596px; */
+    border-radius: 5px;
+    border: 2px solid #858585;
+    background: linear-gradient(0deg, #ffffff, #ffffff);
+    font-family: Roboto;
+    font-family: Roboto;
+    font-size: 24px;
+    padding-left: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;        
+
+}
+
+.mobile-text{
+    background-image: url('image/Vector.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 20px;
+}
+
+.mobile .tick-div{
+    position: absolute;
+    top: 50%;
+    right: 5px; /* Adjust the right positioning as needed */
+    transform: translate(0, -20%);
+    width: 35.42924499511719px;
+    height: 35.632164001464844px;
+    background-color: green;
+}
+.tick-mark-image{
+position: absolute;
+right: 7px; /* Adjust the position of the tick mark */
+width: 19.190841674804688px;
+height: 14.846735000610352px;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.password{
+    position:absolute;
+    width: 876px;
+    height: 108px;
+    top: 594px;
+    left: 596px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.password>span{
+    font-family: Roboto;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.password>input{
+    position: relative;
+    display: inline-block;
+    width: 873px;
+    height: 70px;
+    /* top: 380px;
+    left: 596px; */
+    border-radius: 5px;
+    border: 2px solid #858585;
+    background: linear-gradient(0deg, #ffffff, #ffffff);
+    font-family: Roboto;
+    font-family: Roboto;
+    font-size: 24px;
+    padding-left: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;        
+
+}
+
+.password-text{
+    background-image: url('image/Vector.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    padding-right: 20px;
+}
+
+.password .eye-div{
+    position: absolute;
+    top: 50%;
+    right: 5px; /* Adjust the right positioning as needed */
+    transform: translate(0, -20%);
+    width: 35.42924499511719px;
+    height: 35.632164001464844px;
+
+}
+.eye-image{
+position: absolute;
+right: 7px; /* Adjust the position of the tick mark */
+width: 19.190841674804688px;
+height: 14.846735000610352px;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.college-start-date{
+    position:absolute;
+    width: 405px;
+    height: 108px;
+    top: 720px;
+    left: 596px;
+    border-radius: 5px;    
+    display: flex;
+    flex-direction: column;
+    }
+    .college-start-date>span{
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+    }
+    .college-start-date>input{
+        position: relative;
+        display: inline-block;
+        width: 405px;
+        height: 70px;
+        /* top: 254px;
+        left: 596px; */
+        border-radius: 5px;
+        background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+        border: 2px solid #858585;
+        font-family: Roboto;
+        font-size: 24px;
+        padding-left: 20px;
+        font-weight: 500;
+        line-height: 28px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .college-start-date-text{
+        background-image: url('image/Vector.png');
+        background-repeat: no-repeat;
+        background-position: right center;
+        padding-right: 20px;
+    }
+    
+    .college-start-date .college-div{
+        position: absolute;
+        top: 50%;
+        right: 5px; /* Adjust the right positioning as needed */
+        transform: translate(0, -20%);
+        width: 35.42924499511719px;
+        height: 35.632164001464844px;
+    
+    }
+    .college-start-date-image{
+    position: absolute;
+    right: 7px; /* Adjust the position of the tick mark */
+    width: 19.190841674804688px;
+    height: 14.846735000610352px;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+
+    .college-end-date{
+        position:absolute;
+        width: 410px;
+        height: 108px;
+        top: 720px;
+        left: 1062px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        }
+        .college-end-date>span{
+            font-family: Roboto;
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+            
+        }
+        .college-end-date>input{
+            position: relative;
+            display: inline-block;
+            width: 405px;
+            height: 70px;
+            /* top: 254px;
+            left: 596px; */
+            border-radius: 5px;
+            background: linear-gradient(0deg, #FFFFFF, #FFFFFF);
+            border: 2px solid #858585;
+            font-family: Roboto;
+            font-size: 24px;
+            padding-left: 20px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .college-end-date-text{
+            background-image: url('image/Vector.png');
+            background-repeat: no-repeat;
+            background-position: right center;
+            padding-right: 20px;
+        }
+        
+        .college-end-date .college-end-div{
+            position: absolute;
+            top: 50%;
+            right: 5px; /* Adjust the right positioning as needed */
+            transform: translate(0, -20%);
+            width: 35.42924499511719px;
+            height: 35.632164001464844px;
+        
+        }
+        .college-end-date-image{
+        position: absolute;
+        right: 7px; /* Adjust the position of the tick mark */
+        width: 19.190841674804688px;
+        height: 14.846735000610352px;
+        top: 50%;
+        transform: translateY(-50%);
+        }
+
+        .resume{
+            position:absolute;
+            width: 876px;
+            height: 108px;
+            top: 846px;
+            left: 596px;
+            border-radius: 5px;
+        
+        
+            display: flex;
+            flex-direction: column;
+        }
+        .resume>span{
+            font-family: Roboto;
+            font-size: 26px;
+            font-weight: 600;
+            line-height: 30px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+        .resume>input{
+            position: relative;
+            display: inline-block;
+            width: 873px;
+            height: 70px;
+            /* top: 380px;
+            left: 596px; */
+            border-radius: 5px;
+            border: 2px solid #858585;
+            background: linear-gradient(0deg, #ffffff, #ffffff);
+            font-family: Roboto;
+            font-family: Roboto;
+            font-size: 24px;
+            padding-left: 20px;
+            padding-left: 20px;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;        
+        
+        }
+        
+        .resume-text{
+            background-image: url('image/Vector.png');
+            background-repeat: no-repeat;
+            background-position: right center;
+            padding-right: 20px;
+        }
+        
+        .resume .resume-div{
+            position: absolute;
+            top: 50%;
+            right: 5px; /* Adjust the right positioning as needed */
+            transform: translate(0, -20%);
+            width: 35.42924499511719px;
+            height: 35.632164001464844px;
+        }
+        .resume-image{
+        position: absolute;
+        right: 7px; /* Adjust the position of the tick mark */
+        width: 19.190841674804688px;
+        height: 14.846735000610352px;
+        top: 50%;
+        transform: translateY(-50%);
+        }
+        
+.cancel-button{
+    position:absolute;
+    width: 180px;
+    height: 55px;
+    top: 1007px;
+    left: 593px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    border: 2px solid #08B5FF;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#0889FF;
+}
+.submit-button{
+    position:absolute;
+    width: 180px;
+    height: 55px;
+    top: 1007px;
+    left: 813px;
+    border-radius: 5px;
+    background-color: #086BFF;
+    border-radius: 5px;
+    border: 2px solid #08B5FF;
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#FFFFFF;
+}

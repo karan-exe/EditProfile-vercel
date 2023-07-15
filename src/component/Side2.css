@@ -1,0 +1,173 @@
+.sidebar-2{
+    margin-left: 0;
+    width: 328px;
+    height: 1117px;
+    left:134px;
+}
+.sidebar-2 > .arrow-left{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 35px;
+    left: 134px;
+
+}
+.sidebar-2 > .arrow-left > img{
+    position: absolute;
+    width: 14.819999694824219px;
+    height: 24px;
+    top: 16px;
+    left: 16px;
+}
+.sidebar-2 > .setting{
+    position: absolute;
+    width: 117px;
+    height: 38px;
+    top: 41px;
+    left: 206px;
+
+}
+
+.sidebar-2 > .setting > span{
+    font-family: Roboto;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+.sidebar-2 > .side2-edit{
+    position: absolute;
+    width: 210px;
+    height: 45px;
+    top: 164px;
+    left: 174px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sidebar-2 > .side2-edit> img{
+    width: 33.75468444824219px;
+    height: 33.75px;
+    top: 5.625px;
+    left: 5.625px;
+}
+.sidebar-2 > .side2-edit> span{
+    font-family: Roboto;
+font-size: 28px;
+font-weight: 700;
+line-height: 33px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+.sidebar-2 > .side2-bell{
+    position: absolute;
+    width: 218px;
+    height: 40px;
+    top: 291px;
+    left: 174px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sidebar-2 > .side2-bell> img{
+    width: 26.66666603088379px;
+    height: 32.5px;
+    top: 4.166656494140625px;
+    left: 6.66668701171875px;
+
+}
+.sidebar-2 > .side2-bell> span{
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #858585;    
+
+}
+
+.sidebar-2 > .side2-security{
+    position: absolute;
+    width: 174px;
+    height: 40px;
+    top: 413px;
+    left: 174px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sidebar-2 > .side2-security> img{
+    width: 26.66666603088379px;
+    height: 35px;
+    top: 1.6666717529296875px;
+    left: 6.66668701171875px;
+}
+.sidebar-2 > .side2-security> span{
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: #858585;    
+
+}
+
+.sidebar-2 > .side2-appereance{
+    position: absolute;
+    width: 221px;
+    height: 41px;
+    top: 535px;
+    left: 174px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sidebar-2 > .side2-appereance> img{
+    width: 32.423744201660156px;
+    height: 33.33333206176758px;
+    top: 3.333333969116211px;
+    left: 3.784423828125px;
+}
+.sidebar-2 > .side2-appereance> span{
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;    
+    color: #858585;    
+
+}
+
+.sidebar-2 > .side2-help{
+    position: absolute;
+    width: 129px;
+    height: 40px;
+    top: 658px;
+    left: 174px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.sidebar-2 > .side2-help> img{
+    width: 33.33333206176758px;
+    height: 33.33333206176758px;
+    top: 3.3333358764648438px;
+    left: 3.33331298828125px;
+}
+.sidebar-2 > .side2-help> span{
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;      
+    color: #858585;    
+
+}

@@ -1,0 +1,69 @@
+.sidebar-1{
+    width: 120px;
+    height: 1117px;
+    background-color:#4D85F1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 31px;
+    left: 27px;
+}
+.home{
+    position: absolute;
+    width: 60px;
+    height: 52px;
+    top: 164px;
+    left: 29px;   
+}
+.sidebell{
+    position: absolute;
+    width: 51px;
+    height: 58px;
+    top: 284px;
+    left: 29px; 
+}
+.calendar{
+    position: absolute;
+    width: 54px;
+    height: 58px;
+    top: 410px;
+    left: 35px;
+    
+}
+.chart{
+    position: absolute;
+    width: 49px;
+    height: 51px;
+    top: 525px;
+    left: 40px;  
+}
+.user{
+    position: absolute;
+    width: 52px;
+    height: 56px;
+    top: 646px;
+    left: 40px;
+    
+}
+.bottom-setting{
+    position: absolute;
+    width: 81px;
+    height: 81px;
+    top: 1007px;
+    left: 19px;
+    border-radius: 50%;
+    background-color:  #FF7008;
+    text-align: center;
+}
+.bottom-setting > img{
+    position: absolute;
+    right: 22px; 
+    width: auto; 
+    top: 50%;
+    transform: translateY(-50%);
+}
