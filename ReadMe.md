@@ -1,3 +1,6 @@
-**Download the packages by running the command** :- `npm install`
+**This project is hosted in this link** :- `https://edit-profile-vercel.vercel.app/`
 
-**To run the project run the command** :- `npm run start`
+**Download the required node packages by running the command in terminal** :- `npm install`
+
+**To run the project on local device run the command** :- `npm run start`
+
