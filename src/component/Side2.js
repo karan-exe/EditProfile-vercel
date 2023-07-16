@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Side2.css"
-import leftarrow from "../image/left arrow.png"
-import pen from "../image/pen.png"
-import bellicon2 from "../image/bellicon2.png"
-import security from "../image/security.png"
-import appereance from "../image/appereance.png"
-import help from "../image/help.png"
+import leftarrow from "./image/left arrow.png"
+import pen from "./image/pen.png"
+import bellicon2 from "./image/bellicon2.png"
+import security from "./image/security.png"
+import appereance from "./image/appereance.png"
+import help from "./image/help.png"
 const Side2 = () => {
     return (
         <>

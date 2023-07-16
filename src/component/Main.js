@@ -1,11 +1,11 @@
 import React from 'react'
 import "./Main.css"
-import tickmark from "../image/Vector.png";
-import eye from "../image/Ellipse 66.png"
-import date from "../image/Rectangle 25.png"
-import resume from "../image/Rectangle 4017.png"
-import profileImage from "../image/profile image.png"
-import bell from "../image/bell.png"
+import tickmark from "./image/Vector.png";
+import eye from "./image/Ellipse 66.png"
+import date from "./image/Rectangle 25.png"
+import resume from "./image/Rectangle 4017.png"
+import profileImage from "./image/profile image.png"
+import bell from "./image/bell.png"
 const Main = () => {
     return (
         <>

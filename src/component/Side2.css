@@ -4,6 +4,9 @@
     height: 1117px;
     left:134px;
 }
+.sidebar-2>div{
+    cursor: pointer;
+}
 .sidebar-2 > .arrow-left{
     position: absolute;
     width: 48px;
@@ -14,7 +17,7 @@
 }
 .sidebar-2 > .arrow-left > img{
     position: absolute;
-    width: 14.819999694824219px;
+    width: 14.819999694824219px; 
     height: 24px;
     top: 16px;
     left: 16px;
