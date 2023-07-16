@@ -6,7 +6,18 @@ import date from "./image/Rectangle 25.png"
 import resume from "./image/Rectangle 4017.png"
 import profileImage from "./image/profile image.png"
 import bell from "./image/bell.png"
+import { useState } from 'react';
 const Main = () => {
+    const [passtype, setPasstype] = useState("password");
+    const showPass = () => {
+        if (passtype === "password") {
+            setPasstype("text")
+        }
+        else {
+            setPasstype("password")
+        }
+    }
+
     return (
         <>
             <div className="notification">
@@ -47,9 +58,9 @@ const Main = () => {
             </div>
             <div className="password">
                 <span>Password</span>
-                <input type="password" className="password-text" placeholder="abc 123"></input>
+                <input type={passtype} className="password-text" placeholder="abc 123"></input>
                 <div className="eye-div">
-                    <img src={eye} className="eye-image" alt="eye" />
+                    <img src={eye} className="eye-image" alt="eye" onClick={showPass} />
                 </div>
             </div>
 
